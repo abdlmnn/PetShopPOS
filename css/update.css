@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.upperContainer h2{
+    display: flex;
+    background-color: rgb(183,138,229);
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    letter-spacing: 50px;
+    color: #fff;
+    padding: 10px;
+    font-family: 'BankGothic Md BT', sans-serif;
+}
+.main{
+    margin-left: 160px;
+    padding: 0px;
+}
+
+/* Left sidenav */
+.sidenav{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    background-color:  rgb(183,138,229);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    padding-top: 20px;
+    font-family: 'BankGothic Md BT', sans-serif;
+}
+.sidenav button{
+    display: block;
+    width: 100%;
+    height: 10%;
+    text-decoration: none;
+    font-size: 28px;  
+    font-weight: 550;  
+    background-color:  rgb(183,138,229);
+    color: #fff;
+    border: none;
+    transition: 0.3s ease;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'BankGothic Md BT', sans-serif;
+}
+.sidenav button:hover{
+    background-color: #fff;
+    color: rgb(157, 96, 218);
+}
+.sidenav img{
+    margin-top: -15px;
+    margin-bottom: -5px;
+}
+
+.container1{
+    background-color: #BEBEBE;
+    color: #000;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+    width: 35%;
+    text-align: center;
+}
+
+
+.input-cont{
+    font-size: 45px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'BankGothic Md BT', sans-serif;
+}
+.input-cont input{
+    padding: 15px;
+    font-size: 25px;
+    outline-color: #fff;
+    width: 80%;
+    text-align: center;
+}
+.input-cont textarea{
+    outline-color: #fff;
+    font-size: 25px;
+    width: 380px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.cont-bttn{
+    display: flex;
+    justify-content: center;
+}
+.update-bttn{
+    font-size: 25px;
+    background-color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.1s ease;
+    cursor: pointer;
+    font-family: 'BankGothic Md BT', sans-serif;
+}
+.update-bttn:hover{
+    background-color:  rgb(157, 96, 218);
+    color: #fff;
+} 

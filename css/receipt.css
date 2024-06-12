@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin-left: 160px;
+    padding: 0px;
+}
+.upperContainer h2{
+    display: flex;
+    background-color: rgb(183,138,229);
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    letter-spacing: 20px;
+    color: #fff;
+    padding: 10px;
+    font-family: 'BankGothic Md BT', sans-serif;
+}
+
+
+/* Left sidenav */
+.sidenav{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    background-color:  rgb(183,138,229);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    padding-top: 20px;
+    font-family: 'BankGothic Md BT', sans-serif;
+}
+.sidenav button{
+    display: inline-block;
+    width: 100%;
+    height: 10%;
+    text-decoration: none;
+    font-size: 25px;   
+    background-color:  rgb(183,138,229);
+    color: #fff;
+    border: none;
+    transition: 0.1s ease;
+    text-align: left;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'BankGothic Md BT', sans-serif;
+}
+.sidenav button:hover{
+    background-color: #fff;
+    color: rgb(157, 96, 218);
+}   
+.sidenav img{
+    margin-top: -15px;
+    margin-bottom: -5px;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    margin-left: 275px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px solid rgb(157, 96, 218);
+}
+h1{
+    text-align: center;
+}
+
+p, ul{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+b{
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    margin-bottom: 10px;
+}

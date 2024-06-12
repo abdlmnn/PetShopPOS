@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin-left: 0px;
+    padding: 0px;
+}   
+.upperContainer h2{
+    display: flex;
+    background-color: rgb(183,138,229);
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    letter-spacing: 25px;
+    color: #fff;
+    padding: 10px;
+    font-family: 'BankGothic Md BT', sans-serif;
+}
+
+
+
+/* Left sidenav */
+.sidenav{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    background-color:  rgb(183,138,229);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.sidenav button{
+    font-family: 'BankGothic Md BT', sans-serif;
+    display: block;
+    width: 100%;
+    height: 10%;
+    text-decoration: none;
+    font-size: 28px;  
+    font-weight: 550;  
+    background-color:  rgb(183,138,229);
+    color: #fff;
+    border: none;
+    transition: 0.3s ease;
+    text-align: center;
+    text-transform: uppercase;
+}
+.sidenav button:hover{
+    background-color: #fff;
+    color: rgb(157, 96, 218);
+}
+.sidenav img{
+    margin-top: -15px;
+    margin-bottom: -5px;
+}
+
+
+/* Display Products and Order list */
+.container{
+    display: flex;
+}
+.box-products{
+    flex: 1;
+    margin: 15px;
+    background-color: #BEBEBE;
+}
+.box-products form, .box, button{
+    display: inline-block;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+.box button{
+    display: inline-block;
+    border: 3.5px solid rgb(255, 255, 255);
+    text-align: center;
+    margin: 10px 10px 10px 25px;
+    width: 200px;
+    transition: 0.2s ease;
+    background-color: rgb(183,138,229);
+}
+.box h1, h2, p{
+    font-size: 25px;
+}
+.box button:hover{
+    background-color: rgb(157, 96, 218);
+}
+
+
+/* Order List */
+.box-table{
+    flex: 1;
+    margin: 15px;
+    background-color: #fff;
+}
+.order-list table{
+    text-align: center;
+    width: 100%;
+}
+.order-list table th{
+    padding: 15px;
+    font-size: 15px;
+    background-color: rgb(157, 96, 218);
+    color: #fff;
+}
+.order-list table tbody tr td{
+    background-color: white;
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #BEBEBE;
+}
+
+.qty-input{
+    background-color: #fff;
+    border: none;
+    width: 55px;
+    outline-color: #fff;
+    text-align: center;
+}
+.add-bttn-product{
+    width: 100%;
+    height: auto;
+    border: none;
+    background-color: rgb(183,138,229);
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+.update-bttn{
+    font-size: 15px;
+    background-color: rgb(157, 96, 218);
+    color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 15px;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+.update-bttn:hover{
+    background-color: rgb(183,138,229);
+    color: #fff;
+} 
+.remove-bttn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: white;
+    color: #000;
+    border: none;
+    padding: 5px;
+    transition: 0.1s ease;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.remove-bttn:hover{
+    background-color:  rgb(157, 96, 218);
+    color: #fff;
+} 
+.clear-bttn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: white;
+    color: #000;
+    border: none;
+    padding: 5px;
+    transition: 0.1s ease;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.clear-bttn:hover{
+    background-color:  rgb(157, 96, 218);
+    color: #fff;
+} 
+.operation{
+    width: 20px;
+}
+span{
+    font-size: 25px;
+    background-color: rgb(183,138,229);
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 20px;    
+    border: 2px solid #fff;
+    color: #fff;
+}
+span:hover{
+    background-color: rgb(157, 96, 218);
+    color: #fff;
+    border: 3.5px solid rgb(183,138,229);
+}
+
+
+/* Home button */
+.button_text{
+    display: flex;
+}
+.home-bttn button{
+    height: 100%;
+    width: 120%;
+    padding: 5px;
+    background-color: rgb(183,138,229);
+    color: #fff;
+    font-size: 25px; 
+    font-weight: 900;
+    cursor: pointer;
+    font-family: 'BankGothic Md BT', sans-serif;
+    border: none;
+    border-radius: 0px;
+}
+.home-bttn button:hover{
+    background-color: #fff;
+    color: rgb(183,138,229);
+}
+.text_box{
+    flex: 1;
+    justify-content: center;
+    background-color: rgb(183,138,229);
+    margin-left: 15px;
+    letter-spacing: 10px;
+    font-family: 'BankGothic Md BT', sans-serif;
+    color: #fff;
+}
+.text_box1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(183,138,229);
+    /* margin-left: 15px; */
+    letter-spacing: 10px;
+    font-family: 'BankGothic Md BT', sans-serif;
+    color: #fff;
+}
+hr{
+    padding: 2px;
+    background-color: #fff;
+    border: none;
+}
+
+
+/* Payment */
+.pay-container{
+    position: fixed;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f9;
+    border: 5px solid rgb(183,138,229);
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    z-index: 9999;
+}
+.pay-box{
+    text-align: center;
+}
+.form-container p{
+    font-size: 25px;
+}
+.form-container label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.form-container input{
+    width: 40%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(183,138,229);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    outline-color: rgb(157, 96, 218);
+}
+.form-container button{
+    background-color: rgb(183,138,229);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease;
+    font-size: 20px;
+}
+.form-container button:hover{
+    background-color: rgb(157, 96, 218);
+    color: #fff;
+}

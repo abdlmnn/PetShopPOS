@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'BankGothic Md BT', sans-serif;
+}
+body{
+    background-color: #fff;
+}
+.login-container{
+    display: flex;
+    height: 100vh;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+}
+.logo-container img{
+    max-width: 100%;
+    height: auto;
+}
+.login-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(183, 138, 229);
+    flex: 1;
+}
+.login-form input{
+    width: 400px;
+    padding: 10px;
+    font-size: 35px;
+    border: none;
+    outline-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+}
+.login-form h1{
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+}
+.group{
+    padding: 15px;
+}
+.login-form ::placeholder{
+text-align: center;
+letter-spacing: 24px;
+color: rgb(183, 138, 229);
+}
+.login-form button{
+width: 162px;
+height: 40px;
+font-size: 30px;
+color: rgb(183, 138, 229);
+background-color: #fff;
+margin-left: 130px;
+letter-spacing: 13px;
+transition: 0.3s;
+border: none;
+border-radius: 15px;
+cursor: pointer;
+}
+button:hover{
+background-color: rgb(141, 85, 198);
+color: #fff;
+}
+.errorMessage{
+color: #fff;    
+position: fixed;
+font-size: 25px;
+margin-top: 15px;
+}

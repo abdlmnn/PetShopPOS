@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'BankGothic Md BT', sans-serif;
+}
+.upperContainer h2{
+    display: flex;
+    background-color: rgb(183,138,229);
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    letter-spacing: 25px;
+    color: #fff;
+    padding: 15px;
+}
+main{
+    display: flex;
+}
+.container{
+    text-align: center;
+    margin-top: 30px;
+    flex-grow: 1;
+}
+.buttons{
+    margin-top: 15px;
+}
+.button{
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    background-color: rgb(183,138,229);
+    color: #fff;
+    text-decoration: none;
+    font-size: 45px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+.button:hover{
+    background-color: rgb(157, 96, 218);
+}
+h1{
+    color: rgb(183,138,229);
+    font-size: 55px;
+    letter-spacing: 15px;
+}
+
+
+/* Display total Products, Sales, User */
+.display-total{
+    display: flex;
+    justify-content: space-evenly;
+}
+.display-total .total-sales, .user{
+    margin-top: 50px;
+    width: 20%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: rgb(157, 96, 218);
+    color: #fff;
+    border-radius: 15px;
+}
+.display-total .total-sales h3, p{
+    font-size: 25px;
+}
+.display-total .user h3, p{
+    font-size: 25px;
+}
+.display-total .total-products{
+    margin-top: 50px;
+    width: 20%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: rgb(157, 96, 218);
+    color: #fff;
+    border-radius: 15px;
+}
+.display-total .total-products h3, p{
+    font-size: 25px;
+}
